@@ -1,8 +1,6 @@
-import HelloWorld from "../components/HelloWorld.vue"
+import {FormPage} from "../views"
 
 
-const routes = [
-  { path: "/", component: HelloWorld },
-];
+const routes = [{ path: "/", component: FormPage }];
 
 export default routes
